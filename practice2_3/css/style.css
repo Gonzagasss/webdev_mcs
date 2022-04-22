@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&family=Square+Peg&display=swap');
+@font-face {
+	src: url(../font/SquarePeg-Regular.ttf);
+	font-family: 'SquarePeg';
+}
+
+.container {
+	min-width: 0;
+    max-width: 1400px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.header {
+	background-color: black;
+}
+
+.title-text {
+	color: hotpink;
+	text-align: center;
+}
+.menu-container a{
+color: orange;
+}
+
+.links a {
+color: blueviolet;
+}
+.copyright a{
+color:  black;
+}
