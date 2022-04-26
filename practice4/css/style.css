@@ -1,34 +1,68 @@
+
+/* подключила просто так, посмотреть работает с русским шрифтом или нет */
+@font-face {
+  src: url(../font/SquarePeg-Regular.ttf);
+font-family: 'SquarePeg';
+font-weight: regular;
+}
+
 body {
 margin: 0 !important;
+background: #E5E000;
 }
+
+.container {
+  padding-right: 80px;
+  padding-left: 80px;
+}
+
 .top-text {
   height: 100px;
 }
 
+.top-text h1 {
+color: white;
+font-size: 50px;
+font-weight: 700;
+font-family: 'Helvetica';
+  }
+
 .bg-white {
+  background-color: white;
   padding-bottom: 30px;
   padding-top: 30px;
 }
 
+.bg-white h1,h3 {
+ font-size: 50px;
+font-weight: 700;
+font-family: 'Helvetica';
+}
+
 .someth {
-  height: 100px;
+  height: 100%;
 }
 
 .someth h3 {
-    margin-top: 50px;
+  margin-top: 20px;
+    color: white;
+font-size: 25px;
+font-weight: 700;
+font-family: 'Helvetica';
  }
 
 footer {
-  height: 100px;
+  height: 200px;
 }
 
 .pic img {
-  margin-top: 30px;
+  margin-top: 70px;
 }
 
-.text {
-  margin-top: 10px;
+.pic span {
+  margin-left: 805px;
   color: white;
   font-weight: 700;
   font-size: 50px;
+  font-family: 'Helvetica';
 }
