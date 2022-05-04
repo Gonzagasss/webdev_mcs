@@ -1,16 +1,17 @@
 body {
 	background: white;
+	margin: 0 !important;
 }
+
+
 
 .content {
 	margin-right: 30px;
 	margin-left: 30px;
-}
-
-.content p {
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
+
 
 .red-bg {
 	background-color: red;
@@ -20,51 +21,28 @@ body {
 h3 {
 	margin-bottom: 40px;
 	margin-top: 33px;
+	margin-left: 40px;
 }
 
-.one {
-	position: relative;
+li {
+	list-style-type: none;
+}
+
+.column {
+	display: inline-block;
 	border: 5px solid #E5E000;
-	margin-left: 60px;
 	width: 400px;
 	height: 800px;
 	border-radius: 30px;
-	margin-top: 50px;
+	margin: 0px 25px 25px;
+	text-align: left;
 }
 
-.one h3, p {
-	padding-left: 33px;
+.main {
+text-align: center;
+padding: 52px 0px;
 }
 
-.two {
-	position: absolute;
-	border: 5px solid #E5E000;
-	margin-left: 1060px;
-	width: 400px;
-	height: 800px;
-	border-radius: 30px;
-	    top: 108px;
-    left: -540px;
-}
-
-.two h3, p {
-	padding-left: 33px;
-}
-
-.three {
-	position: absolute;
-	border: 5px solid #E5E000;
-	margin-left: 1060px;
-	width: 400px;
-	height: 800px;
-	border-radius: 30px;
-	    top: 108px;
-    left: -87px;
-}
-
-.three h3, p {
-	padding-left: 33px;
-}
 
 footer {
 	margin-top: 50px;
