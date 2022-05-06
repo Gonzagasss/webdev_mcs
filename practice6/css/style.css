@@ -78,22 +78,17 @@ p {
     justify-content: center;
 }
 
-.text2 {
-    margin-top: 150px;
-    margin-bottom: 150px;
-    position: relative;
-    border: 3px solid #F8BFC7;
-    border-radius: 20px;
-    padding: 30px 0;
+.flex-container.bottles {
     width: 1040px;
-    height: 280px;
-    font-size: 25px;
-    font-weight: 400;
+    margin-left: 150px;
+    justify-content: space-between;
+}
+
+.text1.second {
     display: flex;
 }
 
-
-.text2 img {
+.text1.second img {
     max-height: 220px;
     margin: 0 80px;
     padding-top: 30px;
@@ -115,11 +110,16 @@ footer .container p {
     padding: 50px 0;
 }
 
-.forgotten {
+.flex-container.img {
+    background-image: url('../img/evian_origins_logo.png');
+    height: 950px;
+}
+
+h1 {
     font-family: arial;
     font-size: 100px;
     color: #E50043;
     position: absolute;
-    z-index: 1;
-    margin-top: -535px;
+    background-color: transparent;
+    margin-top: 400px;
 }
