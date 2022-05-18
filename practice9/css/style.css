@@ -25,6 +25,7 @@ body {
 
 .box {
   border: 5px solid black;
+  padding: 20px;
   max-height: 300px;
   width: calc((100% - 60px) / 2);
   margin: 10px;
@@ -35,7 +36,7 @@ body {
   font-weight: 700;
   font-family: "Helvetica";
   text-align: center;
-  padding: 20px;
+  vertical-align: middle;
 }
 
 .f-text {
@@ -57,6 +58,7 @@ body {
   }
 
   .box {
+    display: flex;
     margin: 20px;
     width: 100%;
   }
@@ -66,7 +68,7 @@ body {
   }
 
   .bg p {
-    margin: 0 40px;  
+    margin: 0 40px;
   }
 
   .f-text {
@@ -74,11 +76,8 @@ body {
   }
 }
 
-@media screen and (min-width: 900px) {
-}
-
-@media screen and (min-width: 1264px) {
-}
-
-@media screen and (min-width: 1904px) {
+@media (max-width: 1226px) {
+  .box p {
+    font-size: 30px;
+  }
 }
