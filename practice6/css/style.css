@@ -80,7 +80,7 @@ p {
 
 .flex-container.bottles {
     width: 1040px;
-    margin-left: 150px;
+    margin: auto;
     justify-content: space-between;
 }
 
@@ -113,6 +113,9 @@ footer .container p {
 .flex-container.img {
     background-image: url('../img/evian_origins_logo.png');
     height: 950px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 h1 {
