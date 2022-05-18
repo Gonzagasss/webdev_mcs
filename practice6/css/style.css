@@ -14,8 +14,8 @@ body {
 }
 
 .container {
-    margin-left: 50px;
-    margin-right: 50px;
+    width: 1040px;
+    margin: auto;
 }
 
 .navigation {
@@ -43,7 +43,6 @@ p {
     margin-right: 25px;
 }
 
-
 .flex-container {
     display: flex;
     justify-content: space-around;
@@ -53,12 +52,9 @@ p {
 .text1 {
     margin-top: 150px;
     margin-bottom: 150px;
-    position: relative;
     border: 3px solid #F8BFC7;
     border-radius: 20px;
     padding: 0 24px;
-    width: 1040px;
-    height: 280px;
     font-size: 25px;
     font-weight: 400;
 }
@@ -79,7 +75,6 @@ p {
 }
 
 .flex-container.bottles {
-    width: 1040px;
     margin: auto;
     justify-content: space-between;
 }
