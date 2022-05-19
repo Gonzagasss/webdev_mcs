@@ -31,6 +31,11 @@ body {
   font-size: 50px;
   font-weight: 400;
   margin-right: 25px;
+  text-decoration: none;
+}
+
+.nav__item:last-child {
+    margin: 0;
 }
 
 p {
@@ -39,6 +44,7 @@ p {
 
 .header__logo {
   flex-grow: 1;
+  text-decoration: none;
 }
 
 /*
