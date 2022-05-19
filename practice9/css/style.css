@@ -24,6 +24,8 @@ body {
 }
 
 .box {
+  display: flex;
+  align-items: center;
   border: 5px solid black;
   padding: 20px;
   max-height: 300px;
