@@ -1,123 +1,129 @@
 @font-face {
-    font-family: <Arial>;
+  font-family: <Arial>;
 }
 
 header {
-    position: sticky;
-    background-color: white;
-    z-index: 2;
-    top: 0;
+  position: sticky;
+  background-color: white;
+  z-index: 2;
+  top: 0;
 }
 
 body {
-    margin: 0;
+  margin: 0;
 }
 
-.container {
-    width: 1040px;
-    margin: auto;
+.header__container {
+  justify-content: space-between;
+  padding: 0 50px;
+  margin: auto;
 }
 
-.navigation {
-    display: flex;
-    justify-content: space-between;
-    margin: 50px 0;
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0;
 }
 
-.item {
-    color: #E50043;
-    font-family: arial;
-    font-size: 50px;
-    font-weight: 400;
+.nav__item {
+  color: #e50043;
+  font-family: arial;
+  font-size: 50px;
+  font-weight: 400;
+  margin-right: 25px;
 }
 
 p {
-    font-family: arial;
+  font-family: arial;
 }
 
-.link {
-    flex-grow: 1;
+.header__logo {
+  flex-grow: 1;
 }
 
+/*
 .link1 {
     margin-right: 25px;
 }
+*/
 
 .flex-container {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
+.container {
+  padding: 0 50px;
+}
 
 .text1 {
-    margin-top: 150px;
-    margin-bottom: 150px;
-    border: 3px solid #F8BFC7;
-    border-radius: 20px;
-    padding: 0 24px;
-    font-size: 25px;
-    font-weight: 400;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  border: 3px solid #f8bfc7;
+  border-radius: 20px;
+  padding: 0 24px;
+  font-size: 25px;
+  font-weight: 400;
 }
 
 .bottle {
-    width: 280px;
+  width: 280px;
 }
 
 .bottle p {
-    text-align: center;
-    font-size: 25px;
-    font-weight: 400;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 400;
 }
 
 .flex-container1 {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .flex-container.bottles {
-    margin: auto;
-    justify-content: space-between;
+  margin: auto;
+  justify-content: space-between;
 }
 
 .text1.second {
-    display: flex;
+  display: flex;
 }
 
 .text1.second img {
-    max-height: 220px;
-    margin: 0 80px;
-    padding-top: 30px;
+  max-height: 220px;
+  margin: 0 80px;
+  padding-top: 30px;
 }
 
 .last-text {
-    padding-right: 30px;
+  padding-right: 30px;
 }
 
 footer {
-    background-color: #F8BFC7;
-    color: white;
-    font-size: 50px;
-    font-weight: 400;
+  background-color: #f8bfc7;
+  color: white;
+  font-size: 50px;
+  font-weight: 400;
 }
 
 footer .container p {
-    margin: 0;
-    padding: 50px 0;
+  margin: 0;
+  padding: 50px 0;
 }
 
 .flex-container.img {
-    background-image: url('../img/evian_origins_logo.png');
-    height: 950px;
-    background-repeat: no-repeat;
-    background-size: cover;
-
+  background-image: url("../img/evian_origins_logo.png");
+  height: 950px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 {
-    font-family: arial;
-    font-size: 100px;
-    color: #E50043;
-    position: absolute;
-    background-color: transparent;
-    margin-top: 400px;
+  font-family: arial;
+  font-size: 100px;
+  color: #e50043;
+  position: absolute;
+  background-color: transparent;
+  margin-top: 400px;
 }
